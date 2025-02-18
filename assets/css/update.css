@@ -1,0 +1,37 @@
+/*!
+ * Обновление модуля (Update).
+ *
+ * Расширение "Менеджер модулей".
+ * Модуль "Маркетплейс"
+ *
+ * Copyright 2015 Вeб-студия GearMagic
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://gearmagic.ru/license/
+ */
+
+/* Заливка заднего фона сетки (см. идент. viewManager) */
+.gm-mp-mmanager-update .x-panel-body { background: #f5f5f5; }
+
+
+/**
+ * Шаги обновления модуля.
+ */
+.gm-mp-mmanager-update__steps { padding: 10px 20px 10px 20px; }
+.gm-mp-mmanager-update__step {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #c7c7c7;
+}
+.gm-mp-mmanager-update__step i {
+    font-size: 20px;
+    color: #c7c7c7;
+    margin-right: 3px;
+}
+.gm-mp-mmanager-update__step.active { color: #333; }
+.gm-mp-mmanager-update__step.active i { color: #217346; }
+
+
+/**
+ * Предупреждение.
+ */
+.gm-mp-mmanager-update__notice { color: #e78155; padding: 10px; }
